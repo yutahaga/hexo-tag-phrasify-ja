@@ -4,14 +4,14 @@ const crypto = require('crypto')
 const Cache = require('./lib/cache')
 const Parser = require('./lib/parser')
 
-const parserDefaultOptions = {
+const DEFAULT_OPTIONS = {
   tag: 'span',
   class: null,
   cache: '.cache.phrasify.json',
   alias: null
 }
 
-const options = Object.assign({}, parserDefaultOptions, hexo.config.phrasify)
+const options = Object.assign({}, DEFAULT_OPTIONS, hexo.config.phrasify)
 const cache = new Cache(options.cache)
 const parser = new Parser(options)
 
