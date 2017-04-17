@@ -5,6 +5,12 @@
 
 [goo ラボの形態素解析 API](https://labs.goo.ne.jp/api/jp/morphological-analysis/) を使用しています。
 
+## インストール
+
+```sh
+$ npm install hexo-tag-phrasify-ja --save
+```
+
 ## 設定
 
 gooラボAPIの利用に必要なアプリケーションIDを取得し、`_config.yml`に記述してください。
