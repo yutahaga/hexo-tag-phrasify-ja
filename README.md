@@ -1,4 +1,8 @@
 # hexo-tag-phrasify-ja
+
+[![npm version](https://badge.fury.io/js/hexo-tag-phrasify-ja.svg)](https://badge.fury.io/js/hexo-tag-phrasify-ja)
+
+
 形態素解析によって日本語の文章を文節に分けて、各文節をタグで囲う [Hexo](https://hexo.io) タグプラグインです。
 
 出力されたタグに CSS で `display: inline-block` を指定することで文節ごとに改行されるようになり、文章が読みやすくなります。
