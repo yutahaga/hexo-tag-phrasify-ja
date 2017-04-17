@@ -1,0 +1,17 @@
+{
+  "name": "hexo-tag-phrasify-ja",
+  "version": "1.0.0",
+  "description": "形態素解析によって日本語の文章を文節に分けて、各文節をタグで囲う Hexo タグプラグインです。",
+  "main": "index.js",
+  "repository": "https://github.com/yutahaga/hexo-tag-phrasify-ja.git",
+  "author": "Yuta Haga <yutahaga7@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "hexo",
+    "japanese",
+    "tag"
+  ],
+  "dependencies": {
+    "axios": "^0.16.1"
+  }
+}
